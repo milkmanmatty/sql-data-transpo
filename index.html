@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Transpo</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="mapping">
+        <p>Script Table as Insert to:</p>
+        <textarea id="mapping"></textarea>
+    </div>
+
+    <div class="data">
+        <p>Data In. Columns tab separated. Rows newline separated.</p>
+        <label><input type="checkbox" name="has-header" checked /> Data has header row?</label>
+        <label><input type="checkbox" name="has-id" checked /> Data has ID column?</label>
+        <textarea id="data"></textarea>
+        <p>
+            <button type="button">Submit</button>
+        </p>
+    </div>
+
+    <div class="output">
+        <p>Output</p>
+        <textarea id="output"></textarea>
+    </div>
+    <script src="./site.js"></script>
+</body>
+</html>
